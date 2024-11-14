@@ -1,7 +1,17 @@
 # ECAI-2024: Multiwinner Temporal Voting with Aversion to Change
 
+This repository contains the code for the experiments of the following paper:
+
+Valentin Zech, Niclas Boehmer, Edith Elkind, and Nicholas Teh. “Multiwinner Temporal Voting with Aversion to Change”. In: Proceedings of the 27th European Conference on Artificial Intelligence (ECAI). 2024. https://ebooks.iospress.nl/doi/10.3233/FAIA240870
+
+The full verion (including the appendix) can be found on arXiv: https://arxiv.org/abs/2408.11017
+
+
+## Hardware
 
 The experiments were run using Python 3.11.6 on a machine running macOS Ventura 13.6.6 with a 2.3 GHz 8-core Intel Core i9 processor and 32GB RAM. All used packages with their version numbers are listed in `/resilient_elections/source/requirements.txt`. Running all experiments took around 30 hours.
+
+## Raw Data
 
 The project already contains the raw data in the form of json files, as well as all plots shown in the paper. The raw data can be found in:
 
@@ -10,6 +20,8 @@ The project already contains the raw data in the form of json files, as well as 
 And the graphs can be found in:
 
 ```/resilient_elections/graphs```
+
+## Recreating the Experiments
 
 However, to rerun all experiments from scratch, first navigate to the `/resilient_elections/source` folder, and install the required packages with:
 
